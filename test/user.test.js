@@ -24,8 +24,8 @@ describe("Unit test for user twitter ", () => {
             expect(user2.Created).not.toBeUndefined()
             expect(user2.Update).not.toBeUndefined()
         }),
-        test('Requerimiento 3: Cada objeto tipo user necesita getters', () => {
-            const user = new User(3, "estrella2000", "diana", "bio")
+        test('Requerimiento 3) Cada objeto tipo user necesita getters', () => {
+            const user = new Usuario(3, "estrella2000", "diana", "bio")
             expect(user.getUsername).toBe("estrella2000")
             expect(user.getBio).toBe("bio")
             expect(user.getDataCreated).not.toBeUndefined()
