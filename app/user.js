@@ -20,6 +20,22 @@ class Usuario {
         this.Created = new Date()
         this.Update = new Date()
     }
+    get getUsername() {
+        return this.username
+    }
+
+    get getBio() {
+        return this.bio
+    }
+
+    get getDataCreated() {
+        return this.Created
+    }
+
+    get getLastUpdate() {
+        return this.Update
+    }
+
 }
 
 module.exports = User
