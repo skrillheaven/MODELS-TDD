@@ -1,8 +1,8 @@
-const user = requiere('./../app/user')
+const User = require('./../app/user')
 describe("Unit test for user twitter ", () => {
     test('Requerimiento 1) Guardar la info de usuario en nuestra app', () => {
         //invocamos el codigo a usar en la app
-        const user = new user(1, "Alberto Cruz", "skrillheaven", "Bio ", "dateCreated", "lastUpdated")
+        const user = new User(1, "Alberto Cruz", "skrillheaven", "Bio ", "dateCreated", "lastUpdated")
             //validamos los resuktados del codigo
             //Comparativa que va a igualar el valor de la izquierda con la derecha
         expect(user.id).toBe(1)
