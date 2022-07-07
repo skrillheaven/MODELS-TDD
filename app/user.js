@@ -36,6 +36,13 @@ class Usuario {
         return this.Update
     }
 
+    set setUsername(newUsername) { // actualizar valores ''set''
+        this.username = newUsername
+    }
+
+    set setBio(newBio) {
+        this.bio = newBio
+    }
 }
 
 module.exports = User

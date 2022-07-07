@@ -37,6 +37,6 @@ describe("Unit test for user twitter ", () => {
             expect(user.username).toBe("mina")
 
             user.setBio = "new bio"
-            expect(user.bio).toBe("nw bio")
+            expect(user.bio).toBe("new bio")
         })
 })
