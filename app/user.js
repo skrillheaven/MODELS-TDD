@@ -8,5 +8,10 @@ class User {
         this.lastUpdate = lastUpdate
     }
 }
+class Usuario {
+
+
+}
 
 module.exports = User
+module.exports = Usuario
