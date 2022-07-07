@@ -30,5 +30,13 @@ describe("Unit test for user twitter ", () => {
             expect(user.getBio).toBe("bio")
             expect(user.getDataCreated).not.toBeUndefined()
             expect(user.getLastUpdate).not.toBeUndefined()
+        }),
+        test('Requerimiento 4) Cada objeto necesita  setters', () => {
+            const user = new Usuario(4, "mina1962", "guillermina", "homework")
+            user.setUsername = "mina"
+            expect(user.username).toBe("mina")
+
+            user.setBio = "new bio"
+            expect(user.bio).toBe("nw bio")
         })
 })
