@@ -1,0 +1,19 @@
+{
+    "name": "twitter",
+    "version": "1.0.0",
+    "description": "sprint 1: agregar modelos con TDD",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skrillheaven/MODELS-TDD.git"
+    },
+    "author": "Skrillheaven",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/skrillheaven/MODELS-TDD/issues"
+    },
+    "homepage": "https://github.com/skrillheaven/MODELS-TDD#readme"
+}
