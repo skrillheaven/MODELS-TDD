@@ -1,5 +1,5 @@
-const User = require('./../app/models/user')
-const Usuario = require('./../app/models/user')
+const User = require('../../app/models/user')
+const Usuario = require('../../app/models/user')
 describe("Unit test for user twitter ", () => {
     /*Sprint 1: Agregar modelos*/
 
