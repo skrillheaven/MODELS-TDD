@@ -10,10 +10,9 @@ class UserService {
         return name1.username = new_name
     }
 
+    static getAllUsernames([user1, user2, user3]) {
+        return [user1.username, user2.username, user3.username]
+    }
+
 }
-
-
-
-
-
 module.exports = UserService
